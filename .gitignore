@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+myVenv*/
+venv/
+.venv/
+env/
+.env
+
+# C++
+*.exe
+*.obj
+*.o
+*.so
+*.dll
+
+# C#
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# IDE
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

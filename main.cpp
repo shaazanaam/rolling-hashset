@@ -91,6 +91,7 @@ public:
         }
         
         // Time rolling hash approach
+        //time for the approach
         std::vector<double> rolling_times;
         for (int i = 0; i < iterations; i++) {
             auto [result, exec_time] = timeFunction([this](const std::string& str, const std::vector<std::string>& subs) {
