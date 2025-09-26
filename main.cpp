@@ -41,6 +41,8 @@ public:
     }
     
     // Rolling hash search function
+    //Addtional logic
+    
     std::vector<std::string> rollingHashSearch(const std::string& main_str, 
                                               const std::vector<std::string>& substrings) {
         if (substrings.empty()) return {};
